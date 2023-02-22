@@ -1,4 +1,4 @@
-## <p align="center">Hello World , Welcome :) </p>
+## <p align="center">Hello World .</p>
 
 <p align="center">
 <img src="https://live.staticflickr.com/65535/52704603916_5bff52af6d_o.jpg" width="322" height="350" alt="WhatsApp Image 2023-02-22 at 19.36.57">
