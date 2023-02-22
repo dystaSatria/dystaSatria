@@ -6,6 +6,28 @@ Hello World !!
 <img src="https://live.staticflickr.com/65535/52704603916_5bff52af6d_o.jpg" width="322" height="450" alt="WhatsApp Image 2023-02-22 at 19.36.57">
 </p>
 
+import React from 'react';
+import useDarkMode from 'use-dark-mode';
+
+import Toggle from './Toggle';
+
+const DarkModeToggle = () => {
+  const darkMode = useDarkMode(false);
+
+  return (
+    <div>
+      <button type="button" onClick={darkMode.disable}>
+        ☀
+      </button>
+      <Toggle checked={darkMode.value} onChange={darkMode.toggle} />
+      <button type="button" onClick={darkMode.enable}>
+        ☾
+      </button>
+    </div>
+  );
+};
+
+export default DarkModeToggle;
 
 <!--
 **dyzzta/dyzzta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
