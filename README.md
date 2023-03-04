@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="https://live.staticflickr.com/65535/52726175488_8b64198ae8_z.jpg" width="1024" height="576" alt="Picsart_23-03-04_21-56-21-316">
+<img>
 </p>
 
 
@@ -12,6 +12,7 @@
 Here are some ideas to get you started:
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52726175488/in/dateposted-public/" title="Picsart_23-03-04_21-56-21-316"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 - 🔭 I’m currently working on .
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/52725192497/in/dateposted-public/" title="preview"><img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="1024" height="576" alt="preview"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to colbote 
 - 🤔 I’m looking for help with ...
