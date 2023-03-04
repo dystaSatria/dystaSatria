@@ -2,7 +2,8 @@
 <p align="center">
 <img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="700" height="360" alt="preview">  
 </p>
-## <p align="center">Reza Dysta Satria ||  </p>
+
+# <p align="center">Reza Dysta Satria ||  ███▒▒▒▒▒▒▒𝐍𝐨𝐰 𝐥𝐨𝐚𝐝𝐢𝐧𝐠... </p>
 
 
 
