@@ -1,7 +1,7 @@
 ## <p align="center">Hello World.</p>
 
 <p align="center">
-<img src="https://live.staticflickr.com/65535/52726175488_8b64198ae8_z.jpg" width="640" height="360" alt="Picsart_23-03-04_21-56-21-316">
+<img src="https://live.staticflickr.com/65535/52726175488_8b64198ae8_z.jpg" width="1600" height="900" alt="Picsart_23-03-04_21-56-21-316">
 </p>
 
 
