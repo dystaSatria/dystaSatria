@@ -6,7 +6,7 @@
 <p align="center">
 
 <img src="https://media.tenor.com/isls1Kc67XQAAAAM/kp09-loading.gif"  alt="preview">  
-<img src="https://i.pinimg.com/originals/37/bb/12/37bb12dc18a82af3c2278844fcbfb967.gif"  alt="preview2">    
+<img src="[https://i.pinimg.com/originals/37/bb/12/37bb12dc18a82af3c2278844fcbfb967.gif](https://i.pinimg.com/originals/37/bb/12/37bb12dc18a82af3c2278844fcbfb967.gif)"  alt="preview2">    
 </p>
 
 
