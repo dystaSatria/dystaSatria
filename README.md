@@ -2,10 +2,12 @@
 <p align="center">
 <img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="700" height="360" alt="preview">  
 </p>
-<img src="https://media.tenor.com/n4w0VzWFbtgAAAAC/loading.gif" width="700" height="360" alt="preview">  
+<p align="center">
+<img src="https://media.tenor.com/n4w0VzWFbtgAAAAC/loading.gif" width="30" height="60" alt="preview">  
+</p>
 
-# <p align="center">  ███▒▒▒▒▒▒▒ </p>
-# <p align="center">  𝐍𝐨𝐰 𝐥𝐨𝐚𝐝𝐢𝐧𝐠... </p>
+
+
 
 <!--
 **dyzzta/dyzzta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
