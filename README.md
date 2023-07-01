@@ -1,4 +1,6 @@
 
+[![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/dystaSatria)
+
 <p align="center">
 <img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="700" height="360" alt="preview">  
 </p>
