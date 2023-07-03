@@ -1,6 +1,10 @@
 
-[![GitHub Profile](https://img.shields.io/badge/GitHub-Profile-blue?logo=github)](https://github.com/dystaSatria)
+<br>
+<div align=center> <img src="https://komarev.com/ghpvc/?username=emresaridogan&style=flat-square&color=FE408F" alt="emresaridogan" ></div>
 
+<img src="https://firebasestorage.googleapis.com/v0/b/dashatar-dev.appspot.com/o/dashatars%2FRGFzaGF0YXJfRGV2ZWxvcGVyX0hhcHB5X2NvbG9yX1BBX3NoYWRvdw==.png?alt=media">
+
+</img>
 
 <p align="center">
 <img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="700" height="360" alt="preview">  
