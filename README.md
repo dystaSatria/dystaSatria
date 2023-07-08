@@ -1,4 +1,4 @@
-<body style="background-color: red;">
+<body style="background-color: red; ">
 
 <br>
 
@@ -39,5 +39,7 @@ Here are some ideas to get you started:
 - 💬 Ask me about ...
 - 📫 How to reach me: .
 
--->
 
+-->
+</body>
+<
