@@ -12,10 +12,10 @@
 <img src="https://live.staticflickr.com/65535/52725192497_7d01841dfe_b.jpg" width="700" height="360" alt="preview">  
 </p>
 
-<p align="center">
+
   
-![Bang](https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif)
-</p>
+<div align="center">![Bang](https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif)</div>
+
 
 
 
