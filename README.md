@@ -1,4 +1,4 @@
-<body style="background-color: red; ">
+<body style="color: red; ">
 
 <br>
 
