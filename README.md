@@ -1,3 +1,5 @@
+<body style="background-color: black;">
+
 <br>
 
 <div align=center> <img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
