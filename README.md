@@ -13,8 +13,9 @@
 </p>
 
 <p align="center">
-[https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif
-](https://tenor.com/Vw15.gif)
+  
+  https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif
+
 
 </p>
 
