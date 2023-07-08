@@ -14,7 +14,7 @@
 
 
   
-![Bang] (https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif) 
+![Bang](https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif) 
 
 
 
