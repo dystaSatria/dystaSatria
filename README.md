@@ -17,7 +17,7 @@
 
   
 <p align="center">
-  <img src="https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif" alt="Bang" width="450" height="360" >
+  <img src="https://media.tenor.com/FoB_tbaG7DkAAAAC/thomas-shelby-peaky-blinders.gif" alt="Bang" width="450" height="260" >
 </p>
 
 
