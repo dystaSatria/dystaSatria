@@ -12,7 +12,7 @@
 
 
 <p align="center">
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/53035701142/in/dateposted-public/" title="Screenshot__670_-removebg-preview"><img src="https://live.staticflickr.com/65535/53035701142_cb19085f30_o.png" width="612" height="408" alt="Screenshot__670_-removebg-preview"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script></p>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/53035701142/in/dateposted-public/" title="Screenshot__670_-removebg-preview"><img src="https://live.staticflickr.com/65535/53035701142_cb19085f30_o.png" width="612" height="408" alt="Screenshot__670_-removebg-preview"/></a></p>
 
 
   
