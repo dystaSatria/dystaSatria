@@ -4,7 +4,7 @@
 
 <div align=center> <img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
 <br>
-<img src="https://readme-typing-svg.herokuapp.com/?font=Segoe&color=%233BF7F5&size=110&center=true&vCenter=true&width=1700&height=400&lines=Hello+Devs!++I'm+Reza+Dysta+;A+Software+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB">
+<img src="https://readme-typing-svg.herokuapp.com/?font=Oswald&color=%233BF7F5&size=110&center=true&vCenter=true&width=1700&height=400&lines=Hello+Devs!++I'm+Reza+Dysta+;A+Software+Developer+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB">
 
 
 </img>
