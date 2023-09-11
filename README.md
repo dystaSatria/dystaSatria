@@ -52,8 +52,8 @@
 
 <p align="center">
   
-<img  alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" align="center" />(https://github.com/dystaSatria) 
-<img  alt="Github" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" align="center" />(https://twitter.com/CreativeTim)
+<img  alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" />(https://github.com/dystaSatria) 
+<img  alt="Github" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white"  />(https://twitter.com/CreativeTim)
 
 </p>
 
