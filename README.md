@@ -1,5 +1,9 @@
 <body style="color: red; ">
+<div align="center">
 
+![VisitorCount](https://profile-counter.glitch.me/{dystaSatria}/count.svg)
+
+</div>
 
 <div align=center><img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
 
