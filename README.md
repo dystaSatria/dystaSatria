@@ -9,7 +9,7 @@
 
 <!--
 <p align="center">
-<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/53035701142/in/dateposted-public/" title="Screenshot__670_-removebg-preview"><img src="https://live.staticflickr.com/65535/53035701142_cb19085f30_o.png" width="240" height="160" alt="Screenshot__670_-removebg-preview"/></a></p>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/197661703@N05/53035701142/in/dateposted-public/" title="Screenshot__670_-removebg-preview"><img src="https://live.staticflickr.com/65535/53035701142_cb19085f30_o.png" width="240" height="160" alt="Screenshot__670_-removebg-preview"/><
 -->
 <br><br>
 
