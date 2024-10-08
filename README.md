@@ -45,7 +45,8 @@
 
 <div align="center">
 
-  
+
+  [![GitHub Streak](https://streak-stats.demolab.com?user=dystaSatria&theme=highcontrast)](https://git.io/streak-stats)
 
 
 
