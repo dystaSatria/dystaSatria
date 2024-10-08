@@ -1,4 +1,7 @@
-
+<audio controls autoplay>
+  <source src="https://github.com/dystaSatria/dystaSatria/blob/main/MUSIC%20(2).mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+</audio>
 
 
 <div align=center><img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
