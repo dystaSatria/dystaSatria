@@ -8,8 +8,9 @@
 
 <br><br>
 
-*"Code is like humor. When you have to explain it, it's bad." – Cory House*
-
+<div align="center">
+<h2><em>"Code is like humor. When you have to explain it, it's bad."</em> – Cory House</h2>
+</div>
 
 ## Programming Languages have been learned (not expert)
 <br><br>
