@@ -8,7 +8,7 @@
 
 <br><br>
 
-## Programming Languages have been learned 
+## Programming Languages have been learned (not expert)
 <br><br>
 
 <p>
