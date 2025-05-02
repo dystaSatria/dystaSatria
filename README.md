@@ -2,15 +2,19 @@
 
 <div align=center><img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
 
+
+<div align="center">
+<h2><em>"Code is like humor. When you have to explain it, it's bad."</em> – Cory House</h2>
+</div>
+
+
 <br>
 <img src ="https://readme-typing-svg.herokuapp.com/?font=Playfair+Display&color=%23000000&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
 </img>
 
 <br><br>
 
-<div align="center">
-<h2><em>"Code is like humor. When you have to explain it, it's bad."</em> – Cory House</h2>
-</div>
+
 
 ## Programming Languages have been learned (not expert)
 <br><br>
