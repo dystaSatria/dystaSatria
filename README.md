@@ -1,4 +1,4 @@
-<div style="background-color: #000000; color: #ffffff; padding: 20px; border-radius: 10px;">
+<div style="background-color:black; color: #000000; padding: 20px; border-radius: 10px;">
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=00FF00&bg_color=000000" alt="dystaSatria" />
