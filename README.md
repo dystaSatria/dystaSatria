@@ -8,7 +8,7 @@
 </div>
 
 
-
+<img src="welcome.svg" style="width: 100%;" alt="Click to see the source">
 
 <br><br>
 <div align="center">
