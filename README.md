@@ -1,6 +1,6 @@
 # 💻 Reza Dysta Satria
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Courier&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&height=100&lines=Welcome!+I'm+Reza+Dysta+Satria;A+Software+Engineer;%24+./access_granted.sh)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Courier&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&height=100&lines=Welcome!+I'm+Reza+Dysta+Satria;A+Software+Engineer;%24+)](https://git.io/typing-svg)
 
 ## 🔐 About Me
 
