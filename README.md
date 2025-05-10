@@ -8,7 +8,66 @@
 </div>
 
 
-
+<svg width="600" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @keyframes swim {
+      0% { transform: translateX(-100px); opacity: 0.8; }
+      50% { transform: translateX(100px); opacity: 1; }
+      100% { transform: translateX(-100px); opacity: 0.8; }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 1; }
+    }
+    .orca {
+      animation: swim 10s ease-in-out infinite;
+    }
+    .binary {
+      font-family: 'Courier New', monospace;
+      font-size: 12px;
+      fill: #00FF00;
+    }
+    .binary-bg {
+      font-family: 'Courier New', monospace;
+      font-size: 8px;
+      fill: #00FF00;
+      opacity: 0.2;
+      animation: blink 2s infinite;
+    }
+  </style>
+  <rect width="100%" height="100%" fill="#000000"/>
+  
+  <!-- Background binary rain effect -->
+  <text x="10" y="20" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="40" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  <text x="10" y="60" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="80" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  <text x="10" y="100" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="120" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  <text x="10" y="140" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="160" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  <text x="10" y="180" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="200" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  <text x="10" y="220" class="binary-bg">01010101010101010101010101010101010101010101010101010101010101</text>
+  <text x="10" y="240" class="binary-bg">10101010101010101010101010101010101010101010101010101010101010</text>
+  
+  <!-- Orca shape made of 1s and 0s -->
+  <g class="orca">
+    <text x="100" y="50" class="binary">10101        01010</text>
+    <text x="90" y="65" class="binary">1010101010    0101010101</text>
+    <text x="80" y="80" class="binary">010101010101010101010101010</text>
+    <text x="70" y="95" class="binary">0101010101010101010101010101010</text>
+    <text x="60" y="110" class="binary">01010101    01010101010    0101010</text>
+    <text x="60" y="125" class="binary">01010101      01010101       0101010</text>
+    <text x="55" y="140" class="binary">0101010101010101010101010101010101010</text>
+    <text x="50" y="155" class="binary">010101010101010101010101010101010101010</text>
+    <text x="50" y="170" class="binary">010  010101010101  0101010101  010  010</text>
+    <text x="45" y="185" class="binary">0101  01010101010    01010101  0101  0101</text>
+    <text x="45" y="200" class="binary">010101010101            01010101010101010</text>
+    <text x="50" y="215" class="binary">01010101                  010101010101</text>
+    <text x="70" y="230" class="binary">10                          01</text>
+  </g>
+</svg>
 <br><br>
 <div align="center">
   <img src="https://raw.githubusercontent.com/rezadysta/rezadysta/main/binary-orca.gif" alt="Binary Orca Animation" width="500">
