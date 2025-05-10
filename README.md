@@ -66,13 +66,6 @@ To use the animated typing effect:
 <h2><em>"Code is like humor. When you have to explain it, it's bad."</em> – Cory House</h2>
 </div>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=40&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=800&height=150&lines=Welcome!+I'm+Reza+Dysta+Satria;>> Senior+Software+Engineer;>> Cybersecurity+Enthusiast;>> Code+%7C+Hack+%7C+Repeat;%24+sudo+apt-get+install+success" alt="Typing SVG" />
-</p>
-<p align="center">
-  <code>[ root@rezadysta:~# ]$ echo "Turning coffee into code since $(date +%Y-%m-%d)" </code>
-</p>
-
 <br>
 <img src ="https://readme-typing-svg.herokuapp.com/?font=Courier&color=%00FF00&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
 </img>
