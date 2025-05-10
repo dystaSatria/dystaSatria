@@ -10,7 +10,7 @@
 </div>
 
 <br>
-<img src ="https://readme-typing-svg.herokuapp.com/?font=Courier&background=000000&color=%2300FF00&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
+<img src ="https://readme-typing-svg.herokuapp.com/?font=Courier&background=000000&color=%2300FF00&size=80&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
 </img>
 
 <br><br>
