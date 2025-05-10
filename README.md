@@ -12,7 +12,7 @@
 
 <br><br>
 <div align="center">
-  <img src="https://raw.githubusercontent.com/rezadysta/rezadysta/main/binary-orca.gif" alt="Binary Orca Animation" width="500">
+  <img src="https://raw.githubusercontent.com/rezadysta/rezadysta/main/orca-animation.svg" alt="Binary Orca Animation" width="500">
 </div>
 <!-- Note: You'll need to create and upload the binary-orca.gif file to your repository -->
 <!--Instructions for creating the GIF are at the bottom of this README -->
