@@ -68,6 +68,8 @@
     <text x="70" y="230" class="binary">10                          01</text>
   </g>
 </svg>
+
+
 <br><br>
 <div align="center">
   <img src="https://raw.githubusercontent.com/rezadysta/rezadysta/main/binary-orca.gif" alt="Binary Orca Animation" width="500">
