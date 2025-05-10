@@ -74,7 +74,7 @@ To use the animated typing effect:
 </p>
 
 <br>
-<img src ="https://readme-typing-svg.herokuapp.com/?font=Playfair+Display&color=%23000000&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
+<img src ="https://readme-typing-svg.herokuapp.com/?font=Courier&color=%00FF00&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
 </img>
 
 <br><br>
