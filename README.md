@@ -10,10 +10,6 @@
   <img src="https://readme-typing-svg.herokuapp.com/?font=Courier&background=000000&color=%2300FF00&size=80&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;" alt="Typing Animation"/>
 </div>
 
-<div align="center">
-  <h2 style="color: #00FF00;"><em>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</em> – Martin Fowler</h2>
-</div>
-
 <img src="orca-animation.svg" style="width: 100%;" alt="Click to see the source">
 
 <div style="background-color: #000000; padding: 20px;">
