@@ -80,7 +80,7 @@
 <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-000000.svg?&style=for-the-badge&logo=LinkedIn&logoColor=00FF00"/>  </a>
 
   <a href="mailto:rezadysta@gmail.com">
-<img alt="Email" src="https://img.shields.io/badge/Email-D14836.svg?style=for-the-badge&logo=gmail&logoColor=00FF00"/>
+<img alt="Email" src="https://img.shields.io/badge/Email-000000.svg?style=for-the-badge&logo=gmail&logoColor=00FF00"/>
     </a>
 </div>
 
