@@ -1,7 +1,3 @@
-
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Courier&size=110&center=true&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=900&height=150&lines=Welcome!+I'm+Reza+Dysta+Satria;A+Software+Engineer;%24+)](https://git.io/typing-svg)
-
-
 <div align=center><img src="https://komarev.com/ghpvc/?username=dystaSatria&style=flat-square&color=000000" alt="dystaSatria" ></div>
 
 
