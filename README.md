@@ -11,9 +11,7 @@
 <br>
 <img src ="https://readme-typing-svg.herokuapp.com/?font=Playfair+Display&color=%23000000&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;"
 </img>
-<img src ="https://readme-typing-svg.herokuapp.com/?font=Playfair+Display&color=%23000000&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;](https://readme-typing-svg.herokuapp.com?font=Courier&duration=3000&color=00FF00&background=000000&center=true&vCenter=true&width=600&height=100&lines=Welcome!+I'm+Reza+Dysta+Satria;A+Software+Engineer;%24+./access_granted.sh
-"
-</img>
+
 <br><br>
 
 
