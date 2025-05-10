@@ -11,7 +11,7 @@
 </div>
 
 <div align="center">
-  <h2 style="color: #00FF00;"><em>"Code is like humor. When you have to explain it, it's bad."</em> – Cory House</h2>
+  <h2 style="color: #00FF00;"><em>"Any fool can write code that a computer can understand. Good programmers write code that humans can understand."</em> – Martin Fowler</h2>
 </div>
 
 <img src="orca-animation.svg" style="width: 100%;" alt="Click to see the source">
