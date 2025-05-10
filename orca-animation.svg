@@ -1,126 +1,232 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 500 400" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
   <style>
     .binary {
       font-family: monospace;
-      font-size: 12px;
+      font-size: 10px;
       fill: #0f0;
     }
-    .orca-path {
+    .binary-group-1 { opacity: 0.9; }
+    .binary-group-2 { opacity: 0.8; }
+    .binary-group-3 { opacity: 0.7; }
+    
+    @keyframes binaryFade {
+      0% { opacity: 0.7; }
+      50% { opacity: 1; }
+      100% { opacity: 0.7; }
+    }
+    .animated-binary { animation: binaryFade 3s infinite; }
+    
+    .water {
+      fill: #2a79ad;
+      opacity: 0.3;
+    }
+    
+    .border {
       fill: none;
       stroke: #0f0;
-      stroke-width: 2;
-    }
-    @keyframes binaryFade {
-      0% { opacity: 0.5; }
-      50% { opacity: 1; }
-      100% { opacity: 0.5; }
-    }
-    .binary-group-1 { animation: binaryFade 2s infinite; }
-    .binary-group-2 { animation: binaryFade 2s infinite 0.5s; }
-    .binary-group-3 { animation: binaryFade 2s infinite 1s; }
-    
-    @keyframes orcaMove {
-      0% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-      100% { transform: translateY(0); }
-    }
-    .orca { animation: orcaMove 3s ease-in-out infinite; }
-    
-    @keyframes fluke {
-      0% { transform: rotate(0deg); }
-      50% { transform: rotate(-5deg); }
-      100% { transform: rotate(0deg); }
-    }
-    .fluke { 
-      transform-origin: 250 300;
-      animation: fluke 2s ease-in-out infinite; 
-    }
-    
-    @keyframes eye {
-      0%, 90%, 100% { transform: scale(1); }
-      95% { transform: scale(0.8); }
-    }
-    .eye {
-      animation: eye 4s infinite;
+      stroke-width: 1;
+      stroke-dasharray: 5 3;
+      opacity: 0.8;
     }
   </style>
   
-  <rect width="100%" height="100%" fill="black" />
+  <rect width="100%" height="100%" fill="#001432" />
   
-  <!-- Background Binary Pattern -->
+  <!-- Water background -->
+  <rect x="0" y="0" width="800" height="400" class="water" />
+  
+  <!-- Sumatra -->
+  <path d="M100,130 L140,90 L180,120 L210,170 L220,230 L200,260 L150,200 L120,170 Z" class="border" />
   <g class="binary-group-1">
-    <text x="50" y="40" class="binary">1010101010101010</text>
-    <text x="80" y="60" class="binary">0101010101010101</text>
-    <text x="30" y="80" class="binary">1010101010101010</text>
-    <text x="70" y="100" class="binary">0101010101010101</text>
-    <text x="40" y="120" class="binary">1010101010101010</text>
-    <text x="90" y="140" class="binary">0101010101010101</text>
-    <text x="60" y="160" class="binary">1010101010101010</text>
+    <text x="120" y="110" class="binary">10101</text>
+    <text x="130" y="120" class="binary">01010</text>
+    <text x="140" y="130" class="binary">10101</text>
+    <text x="150" y="140" class="binary">01010</text>
+    <text x="160" y="150" class="binary">10101</text>
+    <text x="170" y="160" class="binary">01010</text>
+    <text x="180" y="170" class="binary">10101</text>
+    <text x="190" y="180" class="binary">01010</text>
+    <text x="200" y="190" class="binary">10101</text>
+    <text x="190" y="200" class="binary">01010</text>
+    <text x="180" y="210" class="binary">10101</text>
+    <text x="170" y="220" class="binary">01010</text>
+    <text x="160" y="230" class="binary">10101</text>
+    <text x="150" y="220" class="binary">01010</text>
+    <text x="140" y="210" class="binary">10101</text>
+    <text x="130" y="200" class="binary">01010</text>
+    <text x="120" y="190" class="binary">10101</text>
+    <text x="110" y="180" class="binary">01010</text>
+    <text x="130" y="170" class="binary">10101</text>
+    <text x="150" y="160" class="binary">01010</text>
+    <text x="170" y="150" class="binary">10101</text>
+    <text x="190" y="140" class="binary">01010</text>
   </g>
   
+  <!-- Java -->
+  <path d="M220,260 L280,260 L350,280 L420,260 L430,250 L415,245 L330,250 L260,250 Z" class="border" />
   <g class="binary-group-2">
-    <text x="250" y="50" class="binary">0101010101010101</text>
-    <text x="280" y="70" class="binary">1010101010101010</text>
-    <text x="230" y="90" class="binary">0101010101010101</text>
-    <text x="270" y="110" class="binary">1010101010101010</text>
-    <text x="240" y="130" class="binary">0101010101010101</text>
-    <text x="290" y="150" class="binary">1010101010101010</text>
-    <text x="260" y="170" class="binary">0101010101010101</text>
+    <text x="230" y="255" class="binary">10101</text>
+    <text x="250" y="255" class="binary">01010</text>
+    <text x="270" y="255" class="binary">10101</text>
+    <text x="290" y="255" class="binary">01010</text>
+    <text x="310" y="255" class="binary">10101</text>
+    <text x="330" y="255" class="binary">01010</text>
+    <text x="350" y="255" class="binary">10101</text>
+    <text x="370" y="255" class="binary">01010</text>
+    <text x="390" y="255" class="binary">10101</text>
+    <text x="410" y="255" class="binary">01010</text>
+    <text x="240" y="265" class="binary">01010</text>
+    <text x="260" y="265" class="binary">10101</text>
+    <text x="280" y="265" class="binary">01010</text>
+    <text x="300" y="265" class="binary">10101</text>
+    <text x="320" y="265" class="binary">01010</text>
+    <text x="340" y="265" class="binary">10101</text>
+    <text x="360" y="265" class="binary">01010</text>
+    <text x="380" y="265" class="binary">10101</text>
+    <text x="400" y="265" class="binary">01010</text>
+    <text x="420" y="265" class="binary">10101</text>
   </g>
   
+  <!-- Kalimantan/Borneo -->
+  <path d="M300,130 L370,110 L430,130 L440,170 L410,210 L370,220 L340,210 L320,180 L290,160 Z" class="border" />
+  <g class="binary-group-1">
+    <text x="310" y="120" class="binary">10101</text>
+    <text x="330" y="120" class="binary">01010</text>
+    <text x="350" y="120" class="binary">10101</text>
+    <text x="370" y="120" class="binary">01010</text>
+    <text x="390" y="120" class="binary">10101</text>
+    <text x="410" y="130" class="binary">01010</text>
+    <text x="430" y="140" class="binary">10101</text>
+    <text x="430" y="160" class="binary">01010</text>
+    <text x="420" y="180" class="binary">10101</text>
+    <text x="400" y="200" class="binary">01010</text>
+    <text x="380" y="210" class="binary">10101</text>
+    <text x="360" y="210" class="binary">01010</text>
+    <text x="340" y="200" class="binary">10101</text>
+    <text x="330" y="180" class="binary">01010</text>
+    <text x="320" y="160" class="binary">10101</text>
+    <text x="310" y="140" class="binary">01010</text>
+    <text x="340" y="150" class="binary">10101</text>
+    <text x="360" y="160" class="binary">01010</text>
+    <text x="380" y="170" class="binary">10101</text>
+    <text x="400" y="160" class="binary">01010</text>
+    <text x="370" y="140" class="binary">10101</text>
+    <text x="350" y="170" class="binary">01010</text>
+    <text x="390" y="180" class="binary">10101</text>
+  </g>
+  
+  <!-- Sulawesi -->
+  <path d="M460,120 L490,110 L510,125 L500,155 L520,170 L515,200 L490,210 L475,190 L485,170 L475,155 L455,160 L450,140 Z" class="border" />
+  <g class="binary-group-2">
+    <text x="465" y="120" class="binary">10101</text>
+    <text x="480" y="115" class="binary">01010</text>
+    <text x="495" y="120" class="binary">10101</text>
+    <text x="505" y="135" class="binary">01010</text>
+    <text x="500" y="150" class="binary">10101</text>
+    <text x="510" y="165" class="binary">01010</text>
+    <text x="515" y="180" class="binary">10101</text>
+    <text x="505" y="195" class="binary">01010</text>
+    <text x="490" y="200" class="binary">10101</text>
+    <text x="480" y="185" class="binary">01010</text>
+    <text x="485" y="165" class="binary">10101</text>
+    <text x="475" y="145" class="binary">01010</text>
+    <text x="460" y="155" class="binary">10101</text>
+    <text x="455" y="135" class="binary">01010</text>
+    <text x="475" y="175" class="binary">10101</text>
+  </g>
+  
+  <!-- Papua -->
+  <path d="M570,120 L650,100 L700,130 L710,180 L680,230 L620,245 L590,230 L570,190 L565,155 Z" class="border" />
   <g class="binary-group-3">
-    <text x="150" y="45" class="binary">0101010101010101</text>
-    <text x="180" y="65" class="binary">1010101010101010</text>
-    <text x="130" y="85" class="binary">0101010101010101</text>
-    <text x="170" y="105" class="binary">1010101010101010</text>
-    <text x="140" y="125" class="binary">0101010101010101</text>
-    <text x="190" y="145" class="binary">1010101010101010</text>
-    <text x="160" y="165" class="binary">0101010101010101</text>
-    <text x="120" y="185" class="binary">1010101010101010</text>
-    <text x="350" y="55" class="binary">0101010101010101</text>
-    <text x="380" y="75" class="binary">1010101010101010</text>
-    <text x="330" y="95" class="binary">0101010101010101</text>
-    <text x="370" y="115" class="binary">1010101010101010</text>
-    <text x="340" y="135" class="binary">0101010101010101</text>
-    <text x="390" y="155" class="binary">1010101010101010</text>
-    <text x="360" y="175" class="binary">0101010101010101</text>
+    <text x="580" y="120" class="binary">10101</text>
+    <text x="600" y="115" class="binary">01010</text>
+    <text x="620" y="110" class="binary">10101</text>
+    <text x="640" y="110" class="binary">01010</text>
+    <text x="660" y="115" class="binary">10101</text>
+    <text x="680" y="125" class="binary">01010</text>
+    <text x="695" y="145" class="binary">10101</text>
+    <text x="700" y="165" class="binary">01010</text>
+    <text x="695" y="185" class="binary">10101</text>
+    <text x="685" y="205" class="binary">01010</text>
+    <text x="670" y="220" class="binary">10101</text>
+    <text x="650" y="230" class="binary">01010</text>
+    <text x="630" y="235" class="binary">10101</text>
+    <text x="610" y="235" class="binary">01010</text>
+    <text x="590" y="225" class="binary">10101</text>
+    <text x="580" y="210" class="binary">01010</text>
+    <text x="575" y="190" class="binary">10101</text>
+    <text x="570" y="170" class="binary">01010</text>
+    <text x="570" y="150" class="binary">10101</text>
+    <text x="590" y="150" class="binary">01010</text>
+    <text x="610" y="160" class="binary">10101</text>
+    <text x="630" y="170" class="binary">01010</text>
+    <text x="650" y="180" class="binary">10101</text>
+    <text x="670" y="170" class="binary">01010</text>
+    <text x="650" y="150" class="binary">10101</text>
+    <text x="630" y="140" class="binary">01010</text>
+    <text x="610" y="130" class="binary">10101</text>
   </g>
   
-  <!-- Orca Shape made of binary -->
-  <g class="orca">
-    <!-- Main body shape -->
-    <path d="M250,120 C290,110 320,150 350,170 C370,180 390,170 400,190 C410,210 390,230 370,235 
-             C330,245 300,230 270,240 C240,250 220,270 200,260 C180,250 170,230 160,210 
-             C150,190 140,170 150,150 C160,130 180,125 200,130 C220,135 230,130 250,120 Z" 
-          class="orca-path" />
-          
-    <!-- Dorsal fin -->
-    <path d="M270,140 C280,110 300,90 310,100 C320,110 310,130 300,150 C290,160 275,150 270,140 Z" 
-          class="orca-path" />
-          
-    <!-- Tail -->
-    <g class="fluke">
-      <path d="M160,210 C140,220 120,240 100,230 C90,225 85,215 90,205 C95,195 110,200 120,205 C135,212 150,205 160,210" 
-            class="orca-path" />
-    </g>
+  <!-- Small Islands -->
+  <!-- Bali -->
+  <path d="M435,260 L445,265 L440,270 L435,268 Z" class="border" />
+  <text x="435" y="265" class="binary animated-binary">10</text>
+  
+  <!-- Lombok -->
+  <path d="M450,265 L460,270 L455,275 L447,272 Z" class="border" />
+  <text x="450" y="270" class="binary animated-binary">01</text>
+  
+  <!-- Sumbawa -->
+  <path d="M465,270 L480,272 L475,278 L460,276 Z" class="border" />
+  <text x="465" y="275" class="binary animated-binary">10</text>
+  
+  <!-- Flores -->
+  <path d="M485,275 L500,277 L495,282 L480,280 Z" class="border" />
+  <text x="485" y="280" class="binary animated-binary">01</text>
+  
+  <!-- Timor -->
+  <path d="M510,280 L530,285 L525,290 L505,285 Z" class="border" />
+  <text x="510" y="285" class="binary animated-binary">10</text>
+  
+  <!-- Halmahera -->
+  <path d="M540,160 L550,150 L560,165 L545,175 Z" class="border" />
+  <text x="545" y="165" class="binary animated-binary">01</text>
+  
+  <!-- Maluku -->
+  <path d="M540,190 L550,185 L555,195 L545,200 Z" class="border" />
+  <text x="540" y="195" class="binary animated-binary">10</text>
+  
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" class="binary" style="font-size: 24px; font-weight: bold; animation: binaryFade 2s infinite;">
+    INDONESIA
+  </text>
+  
+  <!-- Border around the map -->
+  <rect x="5" y="5" width="790" height="390" stroke="#0f0" stroke-width="2" fill="none" />
+  
+  <!-- Background pattern -->
+  <g class="animated-binary">
+    <text x="50" y="20" class="binary">0101010101010101</text>
+    <text x="50" y="380" class="binary">1010101010101010</text>
+    <text x="150" y="20" class="binary">1010101010101010</text>
+    <text x="150" y="380" class="binary">0101010101010101</text>
+    <text x="250" y="20" class="binary">0101010101010101</text>
+    <text x="250" y="380" class="binary">1010101010101010</text>
+    <text x="350" y="20" class="binary">1010101010101010</text>
+    <text x="350" y="380" class="binary">0101010101010101</text>
+    <text x="450" y="20" class="binary">0101010101010101</text>
+    <text x="450" y="380" class="binary">1010101010101010</text>
+    <text x="550" y="20" class="binary">1010101010101010</text>
+    <text x="550" y="380" class="binary">0101010101010101</text>
+    <text x="650" y="20" class="binary">0101010101010101</text>
+    <text x="650" y="380" class="binary">1010101010101010</text>
+    <text x="750" y="20" class="binary">1010101010101010</text>
+    <text x="750" y="380" class="binary">0101010101010101</text>
     
-    <!-- Pectoral fin -->
-    <path d="M250,200 C240,220 220,230 210,220 C200,210 210,190 225,185 C240,180 250,185 250,200 Z" 
-          class="orca-path" />
-          
-    <!-- Eye -->
-    <circle cx="310" cy="180" r="8" class="eye" fill="#0f0" />
-    
-    <!-- Binary bits on the orca -->
-    <text x="240" y="160" class="binary">10</text>
-    <text x="270" y="190" class="binary">01</text>
-    <text x="230" y="210" class="binary">10</text>
-    <text x="290" y="170" class="binary">01</text>
-    <text x="320" y="190" class="binary">10</text>
-    <text x="350" y="200" class="binary">01</text>
-    <text x="210" y="180" class="binary">10</text>
-    <text x="190" y="200" class="binary">01</text>
-    <text x="170" y="190" class="binary">10</text>
+    <text x="20" y="50" class="binary">1010101010101010</text>
+    <text x="20" y="350" class="binary">0101010101010101</text>
+    <text x="780" y="50" class="binary">0101010101010101</text>
+    <text x="780" y="350" class="binary">1010101010101010</text>
   </g>
 </svg>
