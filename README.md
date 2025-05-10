@@ -10,7 +10,25 @@
 
 
 <br><br>
+<div align="center">
+  
+```
+                 10101        01010
+              1010101010    0101010101
+           010101010101010101010101010
+         0101010101010101010101010101010         
+       01010101    01010101010    0101010        
+      01010101      01010101       0101010       
+     0101010101010101010101010101010101010       
+    010101010101010101010101010101010101010      
+    010  010101010101  0101010101  010  010   
+   0101  01010101010    01010101  0101  0101    
+   010101010101            01010101010101010     
+    01010101                  010101010101        
+       10                          01             
+```
 
+</div>
 <img src ="https://readme-typing-svg.herokuapp.com/?font=Playfair+Display&color=%2300FF00&size=110&center=true&vCenter=true&width=1700&height=400&lines=Welcome+!++I'm+Reza+Dysta+Satria;A+Software+Engineer;">
 
 ## Programming Languages have been learned (not expert)
