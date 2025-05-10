@@ -1,232 +1,444 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .binary {
-      font-family: monospace;
-      font-size: 10px;
-      fill: #0f0;
-    }
-    .binary-group-1 { opacity: 0.9; }
-    .binary-group-2 { opacity: 0.8; }
-    .binary-group-3 { opacity: 0.7; }
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  
+  <!-- Define styles and effects -->
+  <defs>
+    <!-- Gradient for background -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
     
-    @keyframes binaryFade {
-      0% { opacity: 0.7; }
-      50% { opacity: 1; }
-      100% { opacity: 0.7; }
-    }
-    .animated-binary { animation: binaryFade 3s infinite; }
+    <!-- Gradients for 3D effects -->
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ff00;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#00dd00;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00aa00;stop-opacity:1" />
+    </linearGradient>
     
-    .water {
-      fill: #2a79ad;
-      opacity: 0.3;
-    }
+    <!-- Glow effect -->
+    <filter id="glow" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     
-    .border {
-      fill: none;
-      stroke: #0f0;
-      stroke-width: 1;
-      stroke-dasharray: 5 3;
-      opacity: 0.8;
-    }
-  </style>
-  
-  <rect width="100%" height="100%" fill="#001432" />
-  
-  <!-- Water background -->
-  <rect x="0" y="0" width="800" height="400" class="water" />
-  
-  <!-- Sumatra -->
-  <path d="M100,130 L140,90 L180,120 L210,170 L220,230 L200,260 L150,200 L120,170 Z" class="border" />
-  <g class="binary-group-1">
-    <text x="120" y="110" class="binary">10101</text>
-    <text x="130" y="120" class="binary">01010</text>
-    <text x="140" y="130" class="binary">10101</text>
-    <text x="150" y="140" class="binary">01010</text>
-    <text x="160" y="150" class="binary">10101</text>
-    <text x="170" y="160" class="binary">01010</text>
-    <text x="180" y="170" class="binary">10101</text>
-    <text x="190" y="180" class="binary">01010</text>
-    <text x="200" y="190" class="binary">10101</text>
-    <text x="190" y="200" class="binary">01010</text>
-    <text x="180" y="210" class="binary">10101</text>
-    <text x="170" y="220" class="binary">01010</text>
-    <text x="160" y="230" class="binary">10101</text>
-    <text x="150" y="220" class="binary">01010</text>
-    <text x="140" y="210" class="binary">10101</text>
-    <text x="130" y="200" class="binary">01010</text>
-    <text x="120" y="190" class="binary">10101</text>
-    <text x="110" y="180" class="binary">01010</text>
-    <text x="130" y="170" class="binary">10101</text>
-    <text x="150" y="160" class="binary">01010</text>
-    <text x="170" y="150" class="binary">10101</text>
-    <text x="190" y="140" class="binary">01010</text>
-  </g>
-  
-  <!-- Java -->
-  <path d="M220,260 L280,260 L350,280 L420,260 L430,250 L415,245 L330,250 L260,250 Z" class="border" />
-  <g class="binary-group-2">
-    <text x="230" y="255" class="binary">10101</text>
-    <text x="250" y="255" class="binary">01010</text>
-    <text x="270" y="255" class="binary">10101</text>
-    <text x="290" y="255" class="binary">01010</text>
-    <text x="310" y="255" class="binary">10101</text>
-    <text x="330" y="255" class="binary">01010</text>
-    <text x="350" y="255" class="binary">10101</text>
-    <text x="370" y="255" class="binary">01010</text>
-    <text x="390" y="255" class="binary">10101</text>
-    <text x="410" y="255" class="binary">01010</text>
-    <text x="240" y="265" class="binary">01010</text>
-    <text x="260" y="265" class="binary">10101</text>
-    <text x="280" y="265" class="binary">01010</text>
-    <text x="300" y="265" class="binary">10101</text>
-    <text x="320" y="265" class="binary">01010</text>
-    <text x="340" y="265" class="binary">10101</text>
-    <text x="360" y="265" class="binary">01010</text>
-    <text x="380" y="265" class="binary">10101</text>
-    <text x="400" y="265" class="binary">01010</text>
-    <text x="420" y="265" class="binary">10101</text>
-  </g>
-  
-  <!-- Kalimantan/Borneo -->
-  <path d="M300,130 L370,110 L430,130 L440,170 L410,210 L370,220 L340,210 L320,180 L290,160 Z" class="border" />
-  <g class="binary-group-1">
-    <text x="310" y="120" class="binary">10101</text>
-    <text x="330" y="120" class="binary">01010</text>
-    <text x="350" y="120" class="binary">10101</text>
-    <text x="370" y="120" class="binary">01010</text>
-    <text x="390" y="120" class="binary">10101</text>
-    <text x="410" y="130" class="binary">01010</text>
-    <text x="430" y="140" class="binary">10101</text>
-    <text x="430" y="160" class="binary">01010</text>
-    <text x="420" y="180" class="binary">10101</text>
-    <text x="400" y="200" class="binary">01010</text>
-    <text x="380" y="210" class="binary">10101</text>
-    <text x="360" y="210" class="binary">01010</text>
-    <text x="340" y="200" class="binary">10101</text>
-    <text x="330" y="180" class="binary">01010</text>
-    <text x="320" y="160" class="binary">10101</text>
-    <text x="310" y="140" class="binary">01010</text>
-    <text x="340" y="150" class="binary">10101</text>
-    <text x="360" y="160" class="binary">01010</text>
-    <text x="380" y="170" class="binary">10101</text>
-    <text x="400" y="160" class="binary">01010</text>
-    <text x="370" y="140" class="binary">10101</text>
-    <text x="350" y="170" class="binary">01010</text>
-    <text x="390" y="180" class="binary">10101</text>
-  </g>
-  
-  <!-- Sulawesi -->
-  <path d="M460,120 L490,110 L510,125 L500,155 L520,170 L515,200 L490,210 L475,190 L485,170 L475,155 L455,160 L450,140 Z" class="border" />
-  <g class="binary-group-2">
-    <text x="465" y="120" class="binary">10101</text>
-    <text x="480" y="115" class="binary">01010</text>
-    <text x="495" y="120" class="binary">10101</text>
-    <text x="505" y="135" class="binary">01010</text>
-    <text x="500" y="150" class="binary">10101</text>
-    <text x="510" y="165" class="binary">01010</text>
-    <text x="515" y="180" class="binary">10101</text>
-    <text x="505" y="195" class="binary">01010</text>
-    <text x="490" y="200" class="binary">10101</text>
-    <text x="480" y="185" class="binary">01010</text>
-    <text x="485" y="165" class="binary">10101</text>
-    <text x="475" y="145" class="binary">01010</text>
-    <text x="460" y="155" class="binary">10101</text>
-    <text x="455" y="135" class="binary">01010</text>
-    <text x="475" y="175" class="binary">10101</text>
-  </g>
-  
-  <!-- Papua -->
-  <path d="M570,120 L650,100 L700,130 L710,180 L680,230 L620,245 L590,230 L570,190 L565,155 Z" class="border" />
-  <g class="binary-group-3">
-    <text x="580" y="120" class="binary">10101</text>
-    <text x="600" y="115" class="binary">01010</text>
-    <text x="620" y="110" class="binary">10101</text>
-    <text x="640" y="110" class="binary">01010</text>
-    <text x="660" y="115" class="binary">10101</text>
-    <text x="680" y="125" class="binary">01010</text>
-    <text x="695" y="145" class="binary">10101</text>
-    <text x="700" y="165" class="binary">01010</text>
-    <text x="695" y="185" class="binary">10101</text>
-    <text x="685" y="205" class="binary">01010</text>
-    <text x="670" y="220" class="binary">10101</text>
-    <text x="650" y="230" class="binary">01010</text>
-    <text x="630" y="235" class="binary">10101</text>
-    <text x="610" y="235" class="binary">01010</text>
-    <text x="590" y="225" class="binary">10101</text>
-    <text x="580" y="210" class="binary">01010</text>
-    <text x="575" y="190" class="binary">10101</text>
-    <text x="570" y="170" class="binary">01010</text>
-    <text x="570" y="150" class="binary">10101</text>
-    <text x="590" y="150" class="binary">01010</text>
-    <text x="610" y="160" class="binary">10101</text>
-    <text x="630" y="170" class="binary">01010</text>
-    <text x="650" y="180" class="binary">10101</text>
-    <text x="670" y="170" class="binary">01010</text>
-    <text x="650" y="150" class="binary">10101</text>
-    <text x="630" y="140" class="binary">01010</text>
-    <text x="610" y="130" class="binary">10101</text>
-  </g>
-  
-  <!-- Small Islands -->
-  <!-- Bali -->
-  <path d="M435,260 L445,265 L440,270 L435,268 Z" class="border" />
-  <text x="435" y="265" class="binary animated-binary">10</text>
-  
-  <!-- Lombok -->
-  <path d="M450,265 L460,270 L455,275 L447,272 Z" class="border" />
-  <text x="450" y="270" class="binary animated-binary">01</text>
-  
-  <!-- Sumbawa -->
-  <path d="M465,270 L480,272 L475,278 L460,276 Z" class="border" />
-  <text x="465" y="275" class="binary animated-binary">10</text>
-  
-  <!-- Flores -->
-  <path d="M485,275 L500,277 L495,282 L480,280 Z" class="border" />
-  <text x="485" y="280" class="binary animated-binary">01</text>
-  
-  <!-- Timor -->
-  <path d="M510,280 L530,285 L525,290 L505,285 Z" class="border" />
-  <text x="510" y="285" class="binary animated-binary">10</text>
-  
-  <!-- Halmahera -->
-  <path d="M540,160 L550,150 L560,165 L545,175 Z" class="border" />
-  <text x="545" y="165" class="binary animated-binary">01</text>
-  
-  <!-- Maluku -->
-  <path d="M540,190 L550,185 L555,195 L545,200 Z" class="border" />
-  <text x="540" y="195" class="binary animated-binary">10</text>
-  
-  <!-- Title -->
-  <text x="400" y="45" text-anchor="middle" class="binary" style="font-size: 24px; font-weight: bold; animation: binaryFade 2s infinite;">
-    INDONESIA
-  </text>
-  
-  <!-- Border around the map -->
-  <rect x="5" y="5" width="790" height="390" stroke="#0f0" stroke-width="2" fill="none" />
-  
-  <!-- Background pattern -->
-  <g class="animated-binary">
-    <text x="50" y="20" class="binary">0101010101010101</text>
-    <text x="50" y="380" class="binary">1010101010101010</text>
-    <text x="150" y="20" class="binary">1010101010101010</text>
-    <text x="150" y="380" class="binary">0101010101010101</text>
-    <text x="250" y="20" class="binary">0101010101010101</text>
-    <text x="250" y="380" class="binary">1010101010101010</text>
-    <text x="350" y="20" class="binary">1010101010101010</text>
-    <text x="350" y="380" class="binary">0101010101010101</text>
-    <text x="450" y="20" class="binary">0101010101010101</text>
-    <text x="450" y="380" class="binary">1010101010101010</text>
-    <text x="550" y="20" class="binary">1010101010101010</text>
-    <text x="550" y="380" class="binary">0101010101010101</text>
-    <text x="650" y="20" class="binary">0101010101010101</text>
-    <text x="650" y="380" class="binary">1010101010101010</text>
-    <text x="750" y="20" class="binary">1010101010101010</text>
-    <text x="750" y="380" class="binary">0101010101010101</text>
+    <!-- 3D depth effect -->
+    <filter id="depth3d" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur1"/>
+      <feOffset in="blur1" dx="2" dy="2" result="offsetBlur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.5"/>
+      <feComposite in2="offsetBlur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
     
-    <text x="20" y="50" class="binary">1010101010101010</text>
-    <text x="20" y="350" class="binary">0101010101010101</text>
-    <text x="780" y="50" class="binary">0101010101010101</text>
-    <text x="780" y="350" class="binary">1010101010101010</text>
+    <!-- Subtle bevel effect -->
+    <filter id="bevel" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="5" specularConstant="0.75" specularExponent="20" lighting-color="#00ff00" result="specOut">
+        <fePointLight x="-5000" y="-10000" z="20000"/>
+      </feSpecularLighting>
+      <feComposite in="specOut" in2="SourceAlpha" operator="in" result="specOut2"/>
+      <feComposite in="SourceGraphic" in2="specOut2" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+    
+    <!-- Define 3D cube for numbers -->
+    <g id="cube" filter="url(#depth3d)">
+      <rect x="0" y="0" width="12" height="12" fill="url(#textGradient)" rx="1" ry="1"/>
+      <path d="M0,0 L2,-2 L14,-2 L12,0 Z" fill="#00ff00" opacity="0.6"/>
+      <path d="M12,0 L14,-2 L14,10 L12,12 Z" fill="#00aa00" opacity="0.8"/>
+    </g>
+  </defs>
+  
+  <!-- Background with gradient -->
+  <rect width="800" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05">
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00ff00" stroke-width="0.5"/>
+    </pattern>
+    <rect width="100%" height="100%" fill="url(#grid)"/>
   </g>
+  
+  <!-- Main container with perspective -->
+  <g transform="translate(100,100) scale(1.2)">
+    
+    <!-- Define text style with 3D effect -->
+    <style>
+      .number3d { 
+        font-family: 'Courier New', monospace; 
+        font-size: 14px; 
+        font-weight: bold;
+        fill: url(#textGradient);
+        text-anchor: middle;
+        dominant-baseline: middle;
+        filter: url(#glow);
+      }
+      .smallnumber { 
+        font-family: 'Courier New', monospace; 
+        font-size: 10px; 
+        font-weight: bold;
+        fill: url(#textGradient);
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+    </style>
+    
+    <!-- Position detection patterns with 3D enhancement -->
+    
+    <!-- Top-left corner with 3D effect -->
+    <g transform="translate(40,40)" filter="url(#bevel)">
+      <!-- Outer border frame -->
+      <rect x="0" y="0" width="120" height="120" fill="none" stroke="url(#textGradient)" stroke-width="3" rx="5" ry="5"/>
+      
+      <!-- Numbers forming the pattern -->
+      <g>
+        <!-- Top row -->
+        <use href="#cube" x="5" y="5"/>
+        <text x="11" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="20" y="5"/>
+        <text x="26" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="35" y="5"/>
+        <text x="41" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="50" y="5"/>
+        <text x="56" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="65" y="5"/>
+        <text x="71" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="80" y="5"/>
+        <text x="86" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="95" y="5"/>
+        <text x="101" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="5"/>
+        <text x="116" y="11" class="smallnumber">0</text>
+        
+        <!-- Left column -->
+        <use href="#cube" x="5" y="20"/>
+        <text x="11" y="26" class="smallnumber">0</text>
+        <use href="#cube" x="5" y="35"/>
+        <text x="11" y="41" class="smallnumber">1</text>
+        <use href="#cube" x="5" y="50"/>
+        <text x="11" y="56" class="smallnumber">0</text>
+        <use href="#cube" x="5" y="65"/>
+        <text x="11" y="71" class="smallnumber">1</text>
+        <use href="#cube" x="5" y="80"/>
+        <text x="11" y="86" class="smallnumber">0</text>
+        <use href="#cube" x="5" y="95"/>
+        <text x="11" y="101" class="smallnumber">1</text>
+        <use href="#cube" x="5" y="110"/>
+        <text x="11" y="116" class="smallnumber">0</text>
+        
+        <!-- Right column -->
+        <use href="#cube" x="110" y="20"/>
+        <text x="116" y="26" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="35"/>
+        <text x="116" y="41" class="smallnumber">0</text>
+        <use href="#cube" x="110" y="50"/>
+        <text x="116" y="56" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="65"/>
+        <text x="116" y="71" class="smallnumber">0</text>
+        <use href="#cube" x="110" y="80"/>
+        <text x="116" y="86" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="95"/>
+        <text x="116" y="101" class="smallnumber">0</text>
+        <use href="#cube" x="110" y="110"/>
+        <text x="116" y="116" class="smallnumber">1</text>
+        
+        <!-- Bottom row -->
+        <use href="#cube" x="20" y="110"/>
+        <text x="26" y="116" class="smallnumber">1</text>
+        <use href="#cube" x="35" y="110"/>
+        <text x="41" y="116" class="smallnumber">0</text>
+        <use href="#cube" x="50" y="110"/>
+        <text x="56" y="116" class="smallnumber">1</text>
+        <use href="#cube" x="65" y="110"/>
+        <text x="71" y="116" class="smallnumber">0</text>
+        <use href="#cube" x="80" y="110"/>
+        <text x="86" y="116" class="smallnumber">1</text>
+        <use href="#cube" x="95" y="110"/>
+        <text x="101" y="116" class="smallnumber">0</text>
+      </g>
+      
+      <!-- Inner pattern -->
+      <g transform="translate(40,40)">
+        <rect x="0" y="0" width="40" height="40" fill="none" stroke="url(#textGradient)" stroke-width="2" rx="3" ry="3"/>
+        
+        <!-- Center cube -->
+        <use href="#cube" x="14" y="14" transform="scale(1.2)"/>
+        <text x="20" y="20" class="number3d">1</text>
+      </g>
+    </g>
+    
+    <!-- Top-right corner pattern -->
+    <g transform="translate(440,40)" filter="url(#bevel)">
+      <rect x="0" y="0" width="120" height="120" fill="none" stroke="url(#textGradient)" stroke-width="3" rx="5" ry="5"/>
+      
+      <!-- Pattern content similar to top-left -->
+      <g>
+        <!-- Repeat pattern structure -->
+        <use href="#cube" x="5" y="5"/>
+        <text x="11" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="20" y="5"/>
+        <text x="26" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="35" y="5"/>
+        <text x="41" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="50" y="5"/>
+        <text x="56" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="65" y="5"/>
+        <text x="71" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="80" y="5"/>
+        <text x="86" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="95" y="5"/>
+        <text x="101" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="5"/>
+        <text x="116" y="11" class="smallnumber">0</text>
+      </g>
+      
+      <!-- Inner pattern -->
+      <g transform="translate(40,40)">
+        <rect x="0" y="0" width="40" height="40" fill="none" stroke="url(#textGradient)" stroke-width="2" rx="3" ry="3"/>
+        <use href="#cube" x="14" y="14" transform="scale(1.2)"/>
+        <text x="20" y="20" class="number3d">0</text>
+      </g>
+    </g>
+    
+    <!-- Bottom-left corner pattern -->
+    <g transform="translate(40,440)" filter="url(#bevel)">
+      <rect x="0" y="0" width="120" height="120" fill="none" stroke="url(#textGradient)" stroke-width="3" rx="5" ry="5"/>
+      
+      <!-- Pattern content -->
+      <g>
+        <use href="#cube" x="5" y="5"/>
+        <text x="11" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="20" y="5"/>
+        <text x="26" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="35" y="5"/>
+        <text x="41" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="50" y="5"/>
+        <text x="56" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="65" y="5"/>
+        <text x="71" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="80" y="5"/>
+        <text x="86" y="11" class="smallnumber">0</text>
+        <use href="#cube" x="95" y="5"/>
+        <text x="101" y="11" class="smallnumber">1</text>
+        <use href="#cube" x="110" y="5"/>
+        <text x="116" y="11" class="smallnumber">0</text>
+      </g>
+      
+      <!-- Inner pattern -->
+      <g transform="translate(40,40)">
+        <rect x="0" y="0" width="40" height="40" fill="none" stroke="url(#textGradient)" stroke-width="2" rx="3" ry="3"/>
+        <use href="#cube" x="14" y="14" transform="scale(1.2)"/>
+        <text x="20" y="20" class="number3d">1</text>
+      </g>
+    </g>
+    
+    <!-- Timing patterns with 3D effects -->
+    <!-- Horizontal timing pattern -->
+    <g transform="translate(180,40)" filter="url(#glow)">
+      <rect x="0" y="0" width="260" height="15" fill="#000" fill-opacity="0.3" rx="2" ry="2"/>
+      <text x="10" y="10" class="smallnumber">1</text>
+      <text x="30" y="10" class="smallnumber">0</text>
+      <text x="50" y="10" class="smallnumber">1</text>
+      <text x="70" y="10" class="smallnumber">0</text>
+      <text x="90" y="10" class="smallnumber">1</text>
+      <text x="110" y="10" class="smallnumber">0</text>
+      <text x="130" y="10" class="smallnumber">1</text>
+      <text x="150" y="10" class="smallnumber">0</text>
+      <text x="170" y="10" class="smallnumber">1</text>
+      <text x="190" y="10" class="smallnumber">0</text>
+      <text x="210" y="10" class="smallnumber">1</text>
+      <text x="230" y="10" class="smallnumber">0</text>
+      <text x="250" y="10" class="smallnumber">1</text>
+    </g>
+    
+    <!-- Vertical timing pattern -->
+    <g transform="translate(40,180)" filter="url(#glow)">
+      <rect x="0" y="0" width="15" height="260" fill="#000" fill-opacity="0.3" rx="2" ry="2"/>
+      <g transform="rotate(90 7.5 130)">
+        <text x="-120" y="7.5" class="smallnumber">1</text>
+        <text x="-100" y="7.5" class="smallnumber">0</text>
+        <text x="-80" y="7.5" class="smallnumber">1</text>
+        <text x="-60" y="7.5" class="smallnumber">0</text>
+        <text x="-40" y="7.5" class="smallnumber">1</text>
+        <text x="-20" y="7.5" class="smallnumber">0</text>
+        <text x="0" y="7.5" class="smallnumber">1</text>
+        <text x="20" y="7.5" class="smallnumber">0</text>
+        <text x="40" y="7.5" class="smallnumber">1</text>
+        <text x="60" y="7.5" class="smallnumber">0</text>
+        <text x="80" y="7.5" class="smallnumber">1</text>
+        <text x="100" y="7.5" class="smallnumber">0</text>
+        <text x="120" y="7.5" class="smallnumber">1</text>
+      </g>
+    </g>
+    
+    <!-- Data area with 3D numbers -->
+    <g transform="translate(200,100)" filter="url(#depth3d)">
+      <!-- Data pattern rows -->
+      <g>
+        <!-- Row 1 -->
+        <text x="10" y="10" class="number3d">1</text>
+        <text x="30" y="10" class="number3d">0</text>
+        <text x="50" y="10" class="number3d">1</text>
+        <text x="70" y="10" class="number3d">0</text>
+        <text x="90" y="10" class="number3d">1</text>
+        <text x="110" y="10" class="number3d">0</text>
+        <text x="130" y="10" class="number3d">1</text>
+        <text x="150" y="10" class="number3d">0</text>
+        <text x="170" y="10" class="number3d">1</text>
+        <text x="190" y="10" class="number3d">0</text>
+        
+        <!-- Row 2 (offset) -->
+        <text x="20" y="30" class="number3d">0</text>
+        <text x="40" y="30" class="number3d">1</text>
+        <text x="60" y="30" class="number3d">0</text>
+        <text x="80" y="30" class="number3d">1</text>
+        <text x="100" y="30" class="number3d">0</text>
+        <text x="120" y="30" class="number3d">1</text>
+        <text x="140" y="30" class="number3d">0</text>
+        <text x="160" y="30" class="number3d">1</text>
+        <text x="180" y="30" class="number3d">0</text>
+        <text x="200" y="30" class="number3d">1</text>
+        
+        <!-- Row 3 -->
+        <text x="10" y="50" class="number3d">1</text>
+        <text x="30" y="50" class="number3d">0</text>
+        <text x="50" y="50" class="number3d">1</text>
+        <text x="70" y="50" class="number3d">0</text>
+        <text x="90" y="50" class="number3d">1</text>
+        <text x="110" y="50" class="number3d">0</text>
+        <text x="130" y="50" class="number3d">1</text>
+        <text x="150" y="50" class="number3d">0</text>
+        <text x="170" y="50" class="number3d">1</text>
+        <text x="190" y="50" class="number3d">0</text>
+        
+        <!-- Row 4 (offset) -->
+        <text x="20" y="70" class="number3d">0</text>
+        <text x="40" y="70" class="number3d">1</text>
+        <text x="60" y="70" class="number3d">0</text>
+        <text x="80" y="70" class="number3d">1</text>
+        <text x="100" y="70" class="number3d">0</text>
+        <text x="120" y="70" class="number3d">1</text>
+        <text x="140" y="70" class="number3d">0</text>
+        <text x="160" y="70" class="number3d">1</text>
+        <text x="180" y="70" class="number3d">0</text>
+        <text x="200" y="70" class="number3d">1</text>
+      </g>
+    </g>
+    
+    <!-- More data patterns with depth -->
+    <g transform="translate(80,200)" filter="url(#depth3d)">
+      <!-- Create matrix of numbers with 3D effect -->
+      <g opacity="0.9">
+        <!-- Row 1 -->
+        <text x="10" y="10" class="number3d">1</text>
+        <text x="30" y="10" class="number3d">0</text>
+        <text x="50" y="10" class="number3d">1</text>
+        <text x="70" y="10" class="number3d">0</text>
+        <text x="90" y="10" class="number3d">1</text>
+        <text x="110" y="10" class="number3d">0</text>
+        <text x="130" y="10" class="number3d">1</text>
+        <text x="150" y="10" class="number3d">0</text>
+        <text x="170" y="10" class="number3d">1</text>
+        <text x="190" y="10" class="number3d">0</text>
+        <text x="210" y="10" class="number3d">1</text>
+        <text x="230" y="10" class="number3d">0</text>
+        <text x="250" y="10" class="number3d">1</text>
+        <text x="270" y="10" class="number3d">0</text>
+        <text x="290" y="10" class="number3d">1</text>
+        <text x="310" y="10" class="number3d">0</text>
+        <text x="330" y="10" class="number3d">1</text>
+        <text x="350" y="10" class="number3d">0</text>
+        <text x="370" y="10" class="number3d">1</text>
+        <text x="390" y="10" class="number3d">0</text>
+        <text x="410" y="10" class="number3d">1</text>
+        <text x="430" y="10" class="number3d">0</text>
+        
+        <!-- Row 2 (offset for 3D effect) -->
+        <text x="20" y="30" class="number3d">0</text>
+        <text x="40" y="30" class="number3d">1</text>
+        <text x="60" y="30" class="number3d">0</text>
+        <text x="80" y="30" class="number3d">1</text>
+        <text x="100" y="30" class="number3d">0</text>
+        <text x="120" y="30" class="number3d">1</text>
+        <text x="140" y="30" class="number3d">0</text>
+        <text x="160" y="30" class="number3d">1</text>
+        <text x="180" y="30" class="number3d">0</text>
+        <text x="200" y="30" class="number3d">1</text>
+        <text x="220" y="30" class="number3d">0</text>
+        <text x="240" y="30" class="number3d">1</text>
+        <text x="260" y="30" class="number3d">0</text>
+        <text x="280" y="30" class="number3d">1</text>
+        <text x="300" y="30" class="number3d">0</text>
+        <text x="320" y="30" class="number3d">1</text>
+        <text x="340" y="30" class="number3d">0</text>
+        <text x="360" y="30" class="number3d">1</text>
+        <text x="380" y="30" class="number3d">0</text>
+        <text x="400" y="30" class="number3d">1</text>
+        <text x="420" y="30" class="number3d">0</text>
+        <text x="440" y="30" class="number3d">1</text>
+      </g>
+    </g>
+    
+    <!-- Bottom patterns with 3D effect -->
+    <g transform="translate(180,480)" filter="url(#depth3d)">
+      <g opacity="0.85">
+        <!-- Bottom row patterns -->
+        <text x="10" y="10" class="number3d">1</text>
+        <text x="30" y="10" class="number3d">0</text>
+        <text x="50" y="10" class="number3d">1</text>
+        <text x="70" y="10" class="number3d">0</text>
+        <text x="90" y="10" class="number3d">1</text>
+        <text x="110" y="10" class="number3d">0</text>
+        <text x="130" y="10" class="number3d">1</text>
+        <text x="150" y="10" class="number3d">0</text>
+        <text x="170" y="10" class="number3d">1</text>
+        <text x="190" y="10" class="number3d">0</text>
+        <text x="210" y="10" class="number3d">1</text>
+        
+        <text x="20" y="30" class="number3d">0</text>
+        <text x="40" y="30" class="number3d">1</text>
+        <text x="60" y="30" class="number3d">0</text>
+        <text x="80" y="30" class="number3d">1</text>
+        <text x="100" y="30" class="number3d">0</text>
+        <text x="120" y="30" class="number3d">1</text>
+        <text x="140" y="30" class="number3d">0</text>
+        <text x="160" y="30" class="number3d">1</text>
+        <text x="180" y="30" class="number3d">0</text>
+        <text x="200" y="30" class="number3d">1</text>
+        <text x="220" y="30" class="number3d">0</text>
+      </g>
+    </g>
+    
+    <!-- Add floating particles for elegant effect -->
+    <g opacity="0.3">
+      <circle cx="100" cy="300" r="2" fill="url(#textGradient)" filter="url(#glow)">
+        <animate attributeName="cy" values="300;280;300" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="500" cy="200" r="1.5" fill="url(#textGradient)" filter="url(#glow)">
+        <animate attributeName="cy" values="200;220;200" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="300" cy="450" r="2" fill="url(#textGradient)" filter="url(#glow)">
+        <animate attributeName="cy" values="450;430;450" dur="5s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+    
+    <!-- Corner embellishments -->
+    <g opacity="0.6">
+      <path d="M 20,20 L 20,30 L 30,20 Z" fill="url(#textGradient)" filter="url(#glow)"/>
+      <path d="M 570,20 L 570,30 L 560,20 Z" fill="url(#textGradient)" filter="url(#glow)"/>
+      <path d="M 20,570 L 20,560 L 30,570 Z" fill="url(#textGradient)" filter="url(#glow)"/>
+      <path d="M 570,570 L 570,560 L 560,570 Z" fill="url(#textGradient)" filter="url(#glow)"/>
+    </g>
+  </g>
+  
+  <!-- Add subtle scanning line animation -->
+  <rect x="0" y="0" width="800" height="5" fill="url(#textGradient)" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="y" values="0;800;0" dur="8s" repeatCount="indefinite"/>
+  </rect>
 </svg>
