@@ -8,7 +8,7 @@
 </div>
 
 
-<img src="orca-animation.tsx" style="width: 100%;" alt="Click to see the source">
+<img src="orca-animation.svg" style="width: 100%;" alt="Click to see the source">
 
 <br><br>
 <div align="center">
